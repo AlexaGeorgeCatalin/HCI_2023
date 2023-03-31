@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+</head>
+
+<style>
+body {
+  background-color: rgba(66, 69, 73);
+  background-image: linear-gradient(rgba(7, 72, 254, 0.5), rgba(68, 82, 130));
+}
+
+.text_format {
+  color: white;
+  font-family: Helvetica;
+  line-height: 1.5;
+}
+
+.marginalizat {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.discord {
+  padding: 2%;
+  background-color: rgba(114, 137, 218, 1);
+  margin-right: 5%;
+}
+.messenger {
+  padding: 2%;
+  background-color: rgba(0, 132, 255, 1);
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.img_orizontal {
+	width: 70%;
+}
+
+.img_vertical {
+	width: 30%;
+}
+
+.command_line {
+  padding: 2%;
+  background-color: black;
+  margin-right: 5%;
+  font-family: Courier;
+  color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+}
+
+.cuprins{
+  padding: 0;
+  list-style-type: none;
+  border-style: solid;
+  border-width: 5px;
+  background-color: rgba(66, 69, 73, 0.2);
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(114, 137, 218, 1);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 132, 255, 1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<body>
+<h1 class="text_format"><center>Challenge #2: Remote Communications</center></h1>
+
+
+
+<center>
+<ol class="cuprins text_format marginalizat" role="list">
+  <li>
+	<h4>Table of contents</h4>
+	<b>
+    <a href="#chapter0">
+      <span>The Apps</span>
+    </a><br>
+    <a href="#chapter1">
+      <span>Affordances, visual variables and interaction flows</span>
+    </a><br>
+    <a href="#chapter2">
+      <span>Visual metaphors, idioms and text-only interaction</span>
+    </a><br>
+    <a href="#chapter3">
+      <span>Cognitive overload</span>
+    </a><br>
+    <a href="#chapter4">
+      <span>Three improvements</span>
+    </a><br>
+    <a href="#chapter5">
+      <span>Empiric laws</span>
+    </a><br>
+    <a href="#chapter6">
+      <span>Three new features</span>
+    </a><br>
+    <a href="#chapter7">
+      <span>Credits</span>
+    </a><br>
+	</b>
+  </li>
+</ol>
+</center>
+
+
+<h2 class="marginalizat text_format" id="chapter0">The apps</h2>
+
+<p class="marginalizat text_format">For this challange we chose the following apps:</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+	<p><b>Discord</b><br><br>Discord is a VoIP and instant messaging social platform. 
+		Users have the ability to communicate with voice calls, video calls, text messaging, 
+		media and files in private chats or as part of communities called "servers".</p>
+	</li>
+	<li class="messenger">
+	<p><b>Messenger</b><br><br>Messenger is a proprietary instant messaging app and platform developed by Meta Platforms. Originally developed as Facebook Chat in 2008, the company revamped its messaging service in 2010.</p>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter1">Affordances, visual variables and interaction flows</h2>
+
+<h3 class="marginalizat text_format">Affordances</h3>
+<p class="marginalizat text_format">The hints that the product/device offers in order to help us realise how it should be used: in a layout we have buttons with labels.<br>
+	An example for our day to day life is the following: the existence of a doorknob tells us that that object can be opened </p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>The first experience offers some hints. The first thing we see is the option to join a public community (server) or to create your own.<br><br>
+		The landing page's main function is to search a friend in case you want to start communicating with another user.<br><br>
+		In case the user is confused, in the top right corner there is a "help" button that redirects to a FAQ page with more information and the option to search 
+		for the problem you met.
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/xn5uUg8.png"></center>
+		<center><img class="img_orizontal" src="https://i.imgur.com/C0GAZvv.png"></center>
+		<center><img class="img_orizontal" src="https://i.imgur.com/nR097AK.png"></center>
+		<center><img class="img_orizontal" src="https://i.imgur.com/sHHnKno.png"></center>
+		<center><img class="img_orizontal" src="https://i.imgur.com/BVrH8IH.png"></center>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>For a new user, the interface is completely empty and it's pretty difficult to know what to do.<br><br>
+		For a user that already has a few friends, the main functions (chat, calls) are intuitive and clear<br><br>
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/0lGbjcH.png"></center>
+	</li>
+</ul>
+
+<h3 class="marginalizat text_format">Visual variables</h3>
+<p class="marginalizat text_format">
+	A visual variable is an aspect of a graphical object that can visually differentiate it from other objects, 
+	and can be controlled during the design process.<br>
+	Those variables consist of: position, size, shape, colour, orientation and texture.
+</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>
+		Usually, all the visual elements are well differentiated, organised in clear and persistent sections.<br>
+		For example:
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/Dwo91K6.png"></center>
+		<center><img class="img_vertical" src="https://i.imgur.com/M9sqnZ9.png"></center>
+		<p>
+		Servers are always round icons placed on the left side of the screen in a vertical list that has a dark shade of grey.<br><br>
+		Then there is another vertical list that has a lighter shade of grey where:<br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;When we are on a server's window, we can observe communication channels, graphically identified as voice/text channels accompanied by their name.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;When we are on the direct messages window, we can observe the friend's list made form the user's profile picture and their name.<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Excepting the vertical orientation and the position on the screen, those differences are easy to spot.<br><br>		
+		After this we have the main area that represents the chat room we have selected.<br>
+		Besides those there are other sections that are sepparated just as well.<br>
+		</p>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>
+		On the mobile app, we only have acces to a single view, therefore there no ambiguity is present between sections.<br>
+		On the desktop/web app we have, just like Discord, 3 main sections.<br>
+		This time they are not differentiated trough colour, but trough borders.<br><br>
+		First we have a main menu from which we can acces different chat categories that are illustrated trough icons:<br><br>				
+		&nbsp;&nbsp;&nbsp;&nbsp;- Normal chats <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;- Chats with currently <br>
+		&nbsp;&nbsp;&nbsp;&nbsp;- Marketplace chats<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;- Chat requests<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;- Archives <br><br>
+		It's fairly easy to determine in what section you are since the title of the next section changes accordingly.<br>
+		Then we have the chat section: a vertical list with every conversation, where we have the user's profile pic, name and the last messege.<br>
+		Then we have the main section: the chat.
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/0lGbjcH.png"></center>
+		<center><img class="img_vertical" src="https://i.imgur.com/zp55Xx4.png"></center>
+	</li>
+</ul>
+
+<h3 class="marginalizat text_format">Interaction flows</h3>
+<p class="marginalizat text_format">An interaction flow refers to the sequence of actions or steps that a user takes to accomplish a specific task or goal.</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>			
+		Usually, any flow is intuitive and it's not formed from too many steps (around 5 steps for anything).<br><br>
+		An example would be when an user receives a notification in a text channel. 
+		First the task bar icon receives a pip, then, if the messege is from a server, a white pip appears next to the server, and the channel 
+		where the messege is sent has a bold font and white colour.<br><br>
+		Also, the user cna use the inbox to see unread messeges.<br><br>
+		</p>
+		<center><img class="img_orizontal" style="width:15%;" src="https://i.imgur.com/aojNS0n.png"></center>
+		<center><img class="img_orizontal" style="width:15%;" src="https://i.imgur.com/YwRzVX2.png"></center>
+		<center><img class="img_orizontal" style="width:40%;" src="https://i.imgur.com/sGCWeON.png"></center>
+		<center><img class="img_orizontal" style="width:40%;" src="https://i.imgur.com/BO0ccep.png"></center>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>
+		Any flow that is related to communication is intuitive and simple. dar anything that has to do with the account(changing a password) 
+		depends on Facebook, which requires additional steps.<br><br>
+		We will follow a simillar flow for messenger.
+		When an user receives a message, they get a pip in the taskbar. In the contacts list(the one that sent the message appears at the top of the list) 
+		the username is highlighted in bold.
+		</p>
+		<center><img class="img_orizontal" style="width:15%;" src="https://i.imgur.com/LHPQwiU.png"></center>
+		<center><img class="img_orizontal" style="width:40%;" src="https://i.imgur.com/q6Ih6t1.png"></center>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter2">Visual metaphors, idioms and text-only interaction</h2>
+
+<h3 class="marginalizat text_format">Visual metaphors and idioms</h3>
+<p class="marginalizat text_format">
+	There are multiple simillarities between the two apps.<br><br>
+	They both are sepparated in 3 sections.<br><br>
+	The icons they use are generic (a phone for voicalls, a videocamera for video calls, a magnifying glass to search a message, etc.).<br><br>
+	An exception is that on the web/desktop apps Messenger has a button to send a message while Discord doesn't have this button.
+</p>
+<center><img class="img_orizontal" style="width:30%;" src="https://i.imgur.com/F7KQ8Bs.png"></center>
+<center><img class="img_orizontal" style="width:30%;" src="https://i.imgur.com/Iu1Rddc.png"></center>
+
+<h3 class="marginalizat text_format">Text-only interaction</h3>
+<p class="marginalizat text_format">We will take into consideration the sections describet previously and the base functionalities for this excercise.
+</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br></p>
+		<ol>
+			<li>
+				<p>The server, channels and friends list can be represented trough a structure simillar to documents on a Windows command prompt.</p>
+				<p class="command_line">
+					ls servers<br>
+					cd name_server<br><br>
+					
+					ls name_server<br>
+					cd name_channel<br>
+					read messages<br>
+					write message<br><br>
+					
+					ls_friends<br>
+					cd name_friend<br>
+					read messages<br>
+					write message
+				</p>
+			</li>
+			<li>
+				<p>
+					During a call we have the following options: mute, deafen, share screen, close call.<br>
+					If you're on a server you have to acess a voice channel.<br><br>
+					On the command line, after entering a conversation with another user, we can use the following commands:
+				</p>
+				<p class="command_line">
+					start video_call<br>
+					start voice_call<br>
+					join_call<br>
+					reject_call<br>
+					exit_call<br>
+					deafen me<br>
+					mute me<br>
+					mute user<br>
+				</p>
+				<p>For servers, from the channels list we can chose a voice channel where we can use the following commands:</p>
+				<p class="command_line">
+					join channel<br>
+					exit channel<br>
+					mute me<br>
+					mute user<br>
+					deafen me<br>
+				</p>
+			</li>
+		</ol>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>Being a simillar app, we will apply the same implementation for a command line app.<br><br>
+		An exception is that Messenger doesn't have servers, but it has groups. But those groups are more simillar to a normal conversation.<br>
+		</p>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter3">Cognitive overload</h2>
+<p class="marginalizat text_format"></p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>
+			An example for a cognitive overload is that there can be servers with a big channel number that aren't grouped, which can make finding the right channel 
+			difficult.<br><br>
+			Also, if there are a lot of users in a voice channel, communication is difficult.
+		</p>
+		<center><img class="img_vertical" src="https://i.imgur.com/f3YZJSe.png"></center>
+		<center><img class="img_vertical" src="https://i.imgur.com/Ur2Pzr2.png"></center>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>If there are large groups. there is the posibility to have a big messages flow that the user can'tkeep up with.
+		</p>
+		<center><img class="img_orizontal" style="width:15%" src="https://i.imgur.com/z1HDhUp.png"></center>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter4">Three improvements</h2>
+
+<p class="marginalizat text_format"></p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b></p>
+		<ul style="list-style-type:circle;">
+		<li>
+			<p>
+				<b>Platforms:</b> Web/Desktop<br>
+				<b>Problem:</b> There is no send button, the message has to be sent by pressing Enter.<br>
+				<b>Solution:</b> Adding a send button.
+			</p>
+			<p>
+				<b>Platforms:</b> Web/Desktop/Mobile<br>
+				<b>Problem:</b> There is no on-boarding for activities and the library.<br>
+				<b>Solution:</b> Addition of on-boarding pop ups and tips for new users.
+			</p>
+		</li>
+		</ul>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b></p>
+		<ul style="list-style-type:circle;">
+		<li>
+			<p>
+				<b>Platforms:</b> Web/Desktop/Mobile<br>
+				<b>Problem:</b> Big conversation number. Even though some can be archived if they are of no interest, there is the posibility to have more active conversations.<br>
+				<b>Solution:</b> The ability to group conversations in customizable folders.
+			</p>
+			<p>
+				<b>Platforms:</b> Web/Desktop/Mobile<br>
+				<b>Problem:</b> The apps dependence on Facebook.<br>
+				<b>Solution:</b> Adding the necessary views to mnaage your account.
+			</p>
+			<p>
+				<b>Platforms:</b> Web/Desktop/Mobil<br>
+				<b>Problem:</b> We may need to find a certain message often, which can be difficult with the passing of time.<br>
+				<b>Solution:</b> The ability to pin a message or to add it to favourites.
+			</p>
+		</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter5">Empiric laws</h2>
+
+<h3 class="marginalizat text_format">Fitts'</h3>
+<p class="marginalizat text_format">Fitts' law states that the amount of time required for a person to move a pointer to a target area is a function of the distance to the target divided by the size of the target.Thus, the longer the distance and the smaller the target’s size, the longer it takes.
+</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>Overall, Discord's elements are small and distant.<br>
+			Example: to call a friend, we must open the conversation and then press on the call icon.Those buttons are sitting on opposite ends of the window.<br><br>
+			The menus are positioned on the edge of the window on the Web/Desktop version.<br>
+			On the mobile version we need to swipe, then press on the profile icon from where we can access settings.<br>
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/QMITEJA.png"></center>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>Messenger has a very similar case to discord, where the buttons are sitting on opposite sides and the icons are fairly small, but they are a bit bigger than Discord's.
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/UYCsI1t.png"></center>
+	</li>
+</ul>
+
+<h3 class="marginalizat text_format">Hick's</h3>
+<p class="marginalizat text_format">Hick's law describes the time it takes for a person to make a decision as a result of the possible choices: increasing the number of choices will increase the decision time.
+</p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b><br><br>
+		Discord's settings are placed in a single view. Those are sepaprated in multiple categories(User settings, Billing settings, etc.), that also have 
+		subdivisions, from which you access multiple settings.<br><br>
+		Even if they are well divided, there are a few ambiguities between categories and they are visually differentiated.
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/3TreVml.png"></center>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b><br><br>
+		Discord's settings are placed in a single view. Those are sepaprated in multiple categories(User settings, Billing settings, etc.), that also have 
+		subdivisions, from which you access multiple settings.<br><br>
+		Even if they are well divided, there are a few ambiguities between categories and they are visually differentiated.
+		</p>
+		<center><img class="img_orizontal" src="https://i.imgur.com/qxZQUKL.png"></center>
+	</li>
+</ul>
+
+<h3 class="marginalizat text_format">Steering</h3>
+<p class="marginalizat text_format">The steering law is a predictive model of human movement that describes the time required to navigate, or steer, 
+through a 2-dimensional tunnel. The tunnel can be thought of as a path or trajectory on a plane that has an associated thickness or width, 
+where the width can vary along the tunnel. The goal of a steering task is to navigate from one end of the tunnel to the other as quickly as possible, 
+without touching the boundaries of the tunnel.
+</p>
+<p class="marginalizat text_format">
+Both apps have short tunnels. Approximately 4 or 5 sections.<br><br>
+Example: Openning settings
+</p>
+<center><img class="img_vertical" src="https://i.imgur.com/6mob9Ig.png"></center>
+
+
+
+<h2 class="marginalizat text_format" id="chapter6">Three new features</h2>
+
+<p class="marginalizat text_format"></p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Discord</b></p>
+		<ul style="list-style-type:circle;">
+		<li>
+			<p></p>
+		</li>
+		</ul>
+	</li>
+	<li class="messenger">		
+		<p><b>Messenger</b></p>
+		<ul style="list-style-type:circle;">
+		<li>
+			<p></p>
+		</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+<h2 class="marginalizat text_format" id="chapter7">Credits</h2>
+
+<p class="marginalizat text_format"></p>
+<ul class="marginalizat text_format">
+	<li class="discord">
+		<p><b>Alexa George-Catalin</b></p>
+		<ul style="list-style-type:circle;">
+		<li>Text</li>
+		<li>Text translation</li>
+		<li>Screenshots</li>
+		</ul>
+	</li>
+	<li class="messenger">		
+		<p><b>Nicoleanu Ovidiu</b></p>
+		<ul style="list-style-type:circle;">
+		<li>Text</li>
+		<li>Sketching</li>
+		<li>Html site</li>
+		</ul>
+	</li>
+</ul>
+</body>
+</html>
