@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Toha</title>
+    <link rel="stylesheet" href="css/scholarly.min.css">
+    <script src="js/scholarly.min.js"></script>
+  </head>
+  <body prefix="schema: http://schema.org">
+    <header>
+      <div class="banner">
+        <img src="scholarly-html.svg" width="227" height="50" alt="Scholarly HTML logo">
+        <div class="status">Community Draft</div>
+      </div>
+      <h1>Toha</h1>
+    </header>
+    <div role="contentinfo">
+      <dl>
+        <dt>Authors</dt>
+        <dd>
+          Alexa George-Catalin, Nicoleanu Ovidiu
+        </dd>
+      </dl>
+    </div>
+    <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+      <h2>Abstract</h2>
+      <p>
+        In this document we can find information about the pattern designs used in the wireframes and prototypes when creating the design for the project named Toha.
+      </p>
+    </section>
+    <section id="introduction" role="doc-introduction">
+
+      <h2>Introduction-Scope</h2>
+        <p>
+            Toha is designed to be an app that assits the user to plan and take part in trips by providing directions to points of interest that are nearby, to abillity 
+            to plan your own trip and to join trips that have already been planned 
+        </p>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>Personas</h2>
+      <p>
+        We tried to analyze each persona case and to understand their goals, needs and difficulties, in order to make our application as good as possible.
+      </p>
+      <p>
+        We thought about what scenarios our application would be helpful in. We expanded on this in the persona.html by going in detail for each of the personas 
+        described.
+      </p>
+      <section id="perspective">
+        <h3>Primary</h3>
+        <p>
+            The primary persona is Matei Burlacu. He is a tourisitic guide that wants to use the application in order to help him with his job.
+        </p>
+      </section>
+      <section id="perspective">
+        <h3>Secondary</h3>
+        <p>
+            A secondary persona is Mihaela Balan, a young woman that likes to quickly plan trips with friends and does so with ease.
+        </p>
+      </section>
+      <section id="perspective">
+        <h3>Secondary 2</h3>
+        <p>
+            Another secondary persona is Alexandra Ursu, a deaf woman. She wants to travel independently, but her disabilty is an obstacle.
+        </p>
+      </section><section id="perspective">
+        <h3>Served</h3>
+        <p>
+            A served persona is Ionut Lupu. He is a middle aged man that likes to take trips and wants to do so quickly.
+        </p>
+      </section>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>Story boards</h2>
+      <p>
+        We made some sketches while imagining the scenarios described in the personas.html file. There are 2 drawings, one illustrating the experience of a guide, and one illustrating the the experience of a tourist.
+      </p>
+      <br><br><br>
+      <img src=".\Storyboard1.jpg" alt="descriptive text" width=100% height = 100%>
+      <p>
+        In the image above we can see how an user might want to use this app as a guide.
+      </p>
+      <br><br><br>
+      <img src=".\Storyboard2.jpg" alt="descriptive text" width=100% height = 100%>
+      <p>
+        In this image we can see how an user could use the app in order to join a trip made by a guide.
+      </p>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>User flow</h2>
+      <img src=".\Userflow1.jpg" alt="descriptive text" width=100% height = 100%>
+      <img src=".\Userflow2.jpg" alt="descriptive text" width=100% height = 100%>
+      <p>
+        In the userflows made above we can see how an user logs into the app. After they log in they can see the dashboard, where they can do a multitude of actions:
+      </p>
+      <ul>
+        <li>Open the chat, from which they can select a conversation or go back;</li>
+        <li>Open the menu, from which they can open a category or go back;</li>
+        <li>They can start planning a trip;</li>
+        <li>They can browse existing tours;</li>
+        <li>They can log out.</li>
+      </ul>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>Sketches</h2>
+      <p>For our application, we wanted to keep everything simple and to have continous seeming flows when performing something.</p>
+      <section id="perspective">
+        <h3>Mobile</h3>
+        <p>
+          For example, when trying to search for a tour, you only need to follow one path. Search -> Browse tours -> Select tour -> Join tour -> Back home.
+        </p>
+        <p>For the UI patterns, we chose to keep it simple. We have an upper menu bar which has 3 functional elements:</p>
+        <ul>
+          <li>A burger menu, which is the main mean of navigation for anything you're looking for;</li>
+          <li>A search bar that has adaptive results based on what screen you are on (for chats, it displays people, for main screen, it displays cities, tours, monuments, etc);</li>
+          <li>A notification bell for updates in your tours.</li>
+        </ul>
+        <p>The burger menu leads to a list of options, ordered by how often we think something might be used.
+          At the bottom of the screen there is a permanent chat bubble, for accessing the chats screen that also displays message notifications.
+          For actions and commands, we mainly illustrated the user controlling the application by pressing buttons on the screen.
+          There is also the option for speech to text search and the ability to view P.O.I.s through 360 view.</p>
+          <br><br><br>
+          <img src=".\Sketch1.jpg" alt="descriptive text" width=100% height = 100%>
+          <img src=".\Sketch2.jpg" alt="descriptive text" width=100% height = 100%>
+          <img src=".\Sketch3.jpg" alt="descriptive text" width=100% height = 100%>
+      </section>
+      <section id="perspective">
+        <h3>Web</h3>
+        <p> For web we just adapted the "frame" of the application.
+          We have an upper menu bar, which has all the functionalities it had on the mobile application.
+          Now the burger menu opens a drop down list, as the web platform has more display space.
+          We also added a quick log out function for the ease of accesibility.
+          The chat now is permanentely displayed as a list in the right side of the screen and opened chats replace this section.
+          Other than that, the main area is in the center of the screen, containing the adapted screens from the mobile application.
+          The actions are the same as in the mobile application.</p>
+          <br><br><br>
+          <img src=".\Sketch4.jpg" alt="descriptive text" width=100% height = 100%>
+      </section>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>Prototypes</h2>
+      <p>For Figma, we pretty much followed the sketches exactly as they are.
+        Additionaly, we implemented the screens we didn't bother to sketch as we considered them basic and standardized (the settins, chat, etc.)
+        We also searched for clear icons for each functionality (bell for notifications, bubble speech for chat, some kind of camera for VR, with the label 360*).
+        After everything was put in place, we created the flows in Figma for everything we planned.</p>
+      <img src=".\MobileFigma1.png" alt="descriptive text" width=100% height = 100%>
+      <img src=".\MobileFigma2.png" alt="descriptive text" width=100% height = 100%>
+      <img src=".\WebFigma.png" alt="descriptive text" width=100% height = 100%>
+    </section>
+
+    <section id="description" role="doc-introduction">
+      <h2>Credits</h2>
+      <p>Alexa George-Catalin:</p>
+      <ul>
+          <li>Created Ionut Lupu and Mihaela Balan as personas;</li>
+          <li>Created the userflows;</li>
+          <li>Figma for mobile and web;</li>
+          <li>Contributed to the creation of the scholarly.html file.</li>
+      </ul>
+      <p>Nicoleanu Ovidiu:</p>
+      <ul>
+        <li>Created Matei Burlacu and Alexandra Ursu as personas;</li>
+        <li>Created the storyboards;</li>
+        <li>Drew sketches;</li>
+        <li>Figma for mobile and web;</li>
+        <li>Contributed to the creation of the scholarly.html file;</li>
+        <li>Filmed the video.</li>
+      </ul>
+    </section>
+    
+  </body>
+</html>
